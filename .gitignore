@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Secrets
+.env
+
+# Raw data is re-downloadable, keep it out of Git
+data/raw/*
+!data/raw/.gitkeep
